@@ -8,7 +8,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--text-color);
 }
@@ -18,9 +18,10 @@ html{
 }
 body{
     height: 100%;
-    background-image: url(/hintegrund6.jpg);
+    background-image: url(Hintergrung1.jpg);
     background-repeat: no-repeat;
     background-position: center; 
+    background-size: 100% 100%;
     
 }
 nav{
@@ -180,7 +181,7 @@ footer{
     height: auto;
     width: 100vw;
     font-family: open sans-serif;
-    padding-top:20px;
+    padding-top:5px;
     color: white;
 }
 
@@ -193,16 +194,16 @@ footer{
 }
 
 .footer-content h3{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-weight: 400px;
     text-transform: capitalize;
     line-height: 3rem;
 }
 .footer-content p{
     max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
+    margin: 5px auto;
+    line-height: 1px;
+    font-size: 12px;
 }
 
 .socials{
@@ -210,7 +211,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
+    margin: 1rem 0 0.5rem 0;
 }
 
 .socials li{
@@ -222,7 +223,7 @@ footer{
     color: white;
 }
 .socials a i{
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     
     transition: color .4s ease;
 }
